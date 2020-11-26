@@ -182,7 +182,7 @@ Kelas   : TI.20. A.1 <br>
 
 <hr>
 
-### Syntax dibawah ini adalah gabungan dari Syntax-Syntax diatas untuk menghasilkan output Tambah Data, Ubah Data, Hapus Data, Tampilkan Data,dan Cari Data.
+### Syntax dibawah ini adalah gabungan dari Syntax diatas untuk menghasilkan output Tambah Data, Ubah Data, Hapus Data, Tampilkan Data,dan Cari Data.
 
 
 ```python
