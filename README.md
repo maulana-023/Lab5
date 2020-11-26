@@ -14,8 +14,9 @@ Kelas   : TI.20. A.1 <br>
 
 ![Picture - New](pict/tampilan5.png)
 
-### saya akan mencoba untuk menjabarkan fungsi dari tiap-tiap syntax :
-> syntax dibawah untuk melihat data beserta hasil outputnya:
+## saya akan mencoba untuk menjabarkan fungsi dari tiap-tiap syntax beserta hasil outputnya:
+
+### syntax dibawah untuk melihat data :
 
 ```python
     elif menu.lower() == 'l':
@@ -37,7 +38,7 @@ Kelas   : TI.20. A.1 <br>
 
 ![Picture - New](pict/L.png)
 
-> syntax dibawah untuk menambahkan data :
+### syntax dibawah untuk menambahkan data :
 
 ```python
     elif menu.lower() == 't':
@@ -68,7 +69,7 @@ Kelas   : TI.20. A.1 <br>
 
 ![Picture - New](pict/T.png)
 
-> syntax dibawah untuk mengubah data :
+### syntax dibawah untuk mengubah data :
 
 ```python
     elif menu.lower() == 'u':
@@ -116,11 +117,36 @@ Kelas   : TI.20. A.1 <br>
             print("'{}' tidak ditemukan.".format(nama))
 ```
 
-> syntax dibawah untuk menghapus data :
+> jika syntax diatas dirun yang nantinya berfungsi sepeti dibawah ini, masukan 
+"U" untuk Mengubah Data
+
+![Picture - New](pict/U.png)
+
+### syntax dibawah untuk menghapus data :
 
 
 ```python
-    elif menu.lower() == 'c':
+        elif menu.lower() == 'h':
+        nama = input("Masukan nama untuk menghapus sub_data : ")
+        if nama in data.keys():
+            del data[nama]
+            print("sub_data '{}' berhasil dihapus.".format(nama))
+        else:
+            print("'{}' tidak ditemukan.".format(nama))
+
+    else:
+        print("Upss ada yang salah, silahkan cek kembali.")
+```
+
+> jika syntax diatas dirun yang nantinya berfungsi sepeti dibawah ini, masukan 
+"H" untuk Menghapus Data
+
+![Picture - New](pict/H.png)
+
+### syntax dibawah untuk mencari data :
+
+```python
+     elif menu.lower() == 'c':
         print("Mencari data: ")
         print("=================================================")
         nama = input("Masukan nama untuk mencari data: ")
@@ -135,34 +161,13 @@ Kelas   : TI.20. A.1 <br>
 ```
 
 > jika syntax diatas dirun yang nantinya berfungsi sepeti dibawah ini, masukan 
-"U" untuk Mengubah data
-
-![Picture - New](pict/U.png)
-
-> syntax dibawah untuk mencari data :
-
-```python
-    elif menu.lower() == 'h':
-        nama = input("Masukan nama untuk menghapus sub_data : ")
-        if nama in data.keys():
-            del data[nama]
-            print("sub_data '{}' berhasil dihapus.".format(nama))
-        else:
-            print("'{}' tidak ditemukan.".format(nama))
-
-    else:
-        print("Upss ada yang salah, silahkan cek kembali.")
-```
-
-> jika syntax diatas dirun yang nantinya berfungsi sepeti dibawah ini, masukan 
 "C" untuk Mencari Data
 
 ![Picture - New](pict/C.png)
 
 <hr>
 
-> Syntax dibawah ini adalah gabungan dari Syntax-Syntax diatas untuk menghasilkan
-output Tambah Data, Ubah Data, Hapus Data, Tampilkan Data,dan Cari Data.
+### Syntax dibawah ini adalah gabungan dari Syntax-Syntax diatas untuk menghasilkan output Tambah Data, Ubah Data, Hapus Data, Tampilkan Data,dan Cari Data.
 
 
 ```python
@@ -290,3 +295,5 @@ while True:
         print("Upss ada yang salah, silahkan cek kembali.")
 ```
 
+### Sekian hanya ini yang dapat saya sampaikan, semoga bermanfaat.
+## TERIMAKASIH
